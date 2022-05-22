@@ -1,0 +1,33 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+.btn-success{
+    box-shadow: 5px 5px 5px gray;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: whitesmoke;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 30px plum;}
+    to{box-shadow: 1px 1px 30px palegreen;}
+}
+.btn-info{
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(220, 175, 238);
+}
+#copyright{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:white;
+    color:gray;
+    line-height:3;
+    text-align:center;
+    font-size: 17px;
+}
